@@ -1,0 +1,35 @@
+.btn-info, .bg-info{
+    background: linear-gradient(45degree, darkslategray, cornflowerblue);
+}
+
+.btn-primary, .bg-primary{
+    background: linear-gradient(45deg, darkslategray, blue);
+}
+
+.btn-secondary, .bg-secondary{
+    background: linear-gradient(45deg, darkslategray, purple);
+}
+
+.btn-success, .bg-success{
+    background: linear-gradient(45deg, darkslategray, limegreen);
+}
+
+.btn-warning, .bg-warning{
+    background: linear-gradient(45deg, darkslategray, orange);
+}
+
+.btn-danger, .bg-danger{
+    background: linear-gradient(45deg, darkslategray, red);
+}
+
+.btn-dark, .bg-dark{
+    background: linear-gradient(45deg, darkslategray, black);
+}
+
+.btn-light, .bg-light{
+    background: linear-gradient(45deg, darkslategray, lightgray);
+}
+
+.contact-img {
+    margin-top: -80px;
+}
