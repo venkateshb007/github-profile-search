@@ -24,4 +24,4 @@ yarn-error.log*
 
 # Ignore specific files and directories in src
 /src/bootstrap/
-/src/components/githubCredentials
+/src/components/githubCredentials.js
