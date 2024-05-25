@@ -1,5 +1,6 @@
-import "./App.css";
+ import "./App.css";
 import React from "react";
+import GithubSearchApp from "./components/GithubSearchApp";
 
 const App = () => {
   return (
@@ -9,6 +10,8 @@ const App = () => {
           Github-Profile-Search
         </a>
       </nav>
+
+      <GithubSearchApp/>
     </div>
   );
 };
