@@ -82,13 +82,13 @@ This project is deployed using GitHub Pages. To deploy your own version:
 
 Contributing
 Contributions are welcome! Please follow these steps:
-
+```bash
 Fork the repository.
 Create a new branch for your feature (git checkout -b feature-name).
 Make your changes and commit them (git commit -m 'Add new feature').
 Push to the branch (git push origin feature-name).
 Open a pull request.
-
+```
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
