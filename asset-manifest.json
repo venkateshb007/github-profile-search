@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/github-profile-search/static/css/main.b6553591.css",
+    "main.js": "/github-profile-search/static/js/main.cab2ff25.js",
+    "index.html": "/github-profile-search/index.html",
+    "static/media/arrow_left.svg": "/github-profile-search/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
+    "static/media/arrow_right.svg": "/github-profile-search/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
+    "main.b6553591.css.map": "/github-profile-search/static/css/main.b6553591.css.map",
+    "main.cab2ff25.js.map": "/github-profile-search/static/js/main.cab2ff25.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6553591.css",
+    "static/js/main.cab2ff25.js"
+  ]
+}
