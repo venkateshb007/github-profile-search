@@ -76,7 +76,9 @@ This project is deployed using GitHub Pages. To deploy your own version:
    npm run deploy
 
 ```
-5. Access your deployed app at http://venkateshb007.github.io/github-profile-search.
+4. Access your deployed app at
+   ```bash
+   http://venkateshb007.github.io/github-profile-search.
 
 Contributing
 Contributions are welcome! Please follow these steps:
