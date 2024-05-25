@@ -28,7 +28,7 @@ Usage
    ```bash
    npm start
 
-2. Open your browser and navigate to http://localhost:3000.
+2. Open browser and navigate to http://localhost:3000.
    
 3. Enter a GitHub username in the search bar and hit enter to see the user's profile information.
 
@@ -60,7 +60,7 @@ This project is deployed using GitHub Pages. To deploy your own version:
 ```bash
  npm install gh-pages --save-dev
 ```
-2. Add the following to your package.json:
+2. Add the following to package.json:
 ```bash
 {
   "homepage": "http://venkateshb007.github.io/github-profile-search",
@@ -76,7 +76,7 @@ This project is deployed using GitHub Pages. To deploy your own version:
    npm run deploy
 
 ```
-4. Access your deployed app at
+4. Access deployed app at
    ```bash
    http://venkateshb007.github.io/github-profile-search.
 
