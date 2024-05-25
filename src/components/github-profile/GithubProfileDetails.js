@@ -16,7 +16,7 @@ class GithubProfileDetails extends React.Component{
         <React.Fragment>
           <div className="card">
             <div className="card-header">
-              span
+              <span></span>
             </div>
             <div className="card-body"></div>
           </div>
