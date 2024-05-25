@@ -17,7 +17,7 @@ class GithubProfile extends React.Component{
       return (
         <React.Fragment>
           {/* <pre>{JSON.stringify(this.props.profile)}</pre> */}
-          <div className="row">
+          <div className="row mt-4">
             <div className="col-md-3">
               {
                 Object.keys(this.props).length !== 0 ? 
@@ -27,7 +27,12 @@ class GithubProfile extends React.Component{
               }
             </div>
             <div className="col-md-9">
-              <GithubProfileDetails/>
+            {
+                Object.keys(this.props).length !== 0 ? 
+                <React.Fragment>
+                  <GithubProfileDetails profile={this.props.profile}/>
+                </React.Fragment> : null
+              }
             </div>
           </div>
         </React.Fragment>

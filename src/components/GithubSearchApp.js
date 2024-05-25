@@ -23,12 +23,12 @@ class GithubSearchApp extends React.Component{
         this.setState({
             username : username
         })
-        this.searchUserProfile();
-        this.searchUserRepos(); 
+        this.searchUserProfile(username);
+        this.searchUserRepos(username); 
     }
 
-    searchUserProfile = () => {
-        let dataURL = `https://api.github.com/users/${this.state.username}?client=${clientID}&clientSecret=${clientSecret}`;
+    searchUserProfile = (username) => {
+        let dataURL = `https://api.github.com/users/${username}?clientID=${clientID}&clientSecret=${clientSecret}`;
         axios.get(dataURL).then((response)=>{
             this.setState({
                 profile : response.data
@@ -40,15 +40,24 @@ class GithubSearchApp extends React.Component{
         })
     }
 
-    searchUserRepos=()=>{
-
+    searchUserRepos=(username)=>{
+        let dataURL = `https://api.github.com/users/${username}/repos?clientID=${clientID}&clientSecret=${clientSecret}`;
+        axios.get(dataURL).then((response)=>{
+            this.setState({
+                repos : response.data
+            })
+        }).catch((err)=>{
+            this.setState({
+                errorMessage : err
+            })
+        })
     }
 
 
     render() {
       return (
         <React.Fragment>
-            {/* <pre>{JSON.stringify(this.state.profile)}</pre> */}
+            {/* <pre>{JSON.stringify(this.state.repos)}</pre> */}
             <div className="container">
                 <div className="row">
                     <div className="col">
