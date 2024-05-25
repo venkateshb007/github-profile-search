@@ -92,4 +92,4 @@ Open a pull request.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Developed by Venkatesh B
+Developed by @Venkatesh B
